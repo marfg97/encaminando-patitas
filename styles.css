@@ -66,7 +66,7 @@
             font-size: 36px;
             display: inline-block;
             margin-bottom: 15px;
-            color: var(--celeste-oscuro);
+            color: #333333;
         }
 
         .section-title h2:after {
@@ -79,87 +79,12 @@
         }
 
         .section-title p {
-            color: #777;
+            color: #0a0a0a;
             max-width: 700px;
             margin: 0 auto;
         }
 
-        /* Header */
-        /* header {
-            background: #5DADE2;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .header-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 0;
-        }
-
-        .logo {
-            font-size: 28px;
-            font-weight: 800;
-            color: var(--celeste-oscuro);
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-        }
-
-        .logo i {
-            color: var(--marron);
-            margin-right: 10px;
-        }
-
-        .nav-links {
-            display: flex;
-            list-style: none;
-        }
-
-        .nav-links li {
-            margin-left: 30px;
-        }
-
-        .nav-links a {
-            text-decoration: none;
-            color: var(--texto);
-            font-weight: 600;
-            transition: color 0.3s;
-            position: relative;
-        }
-
-        .nav-links a:hover {
-            color: var(--marron);
-        }
-
-        .nav-links a:after {
-            content: '';
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--marron);
-            transition: width 0.3s;
-        }
-
-        .nav-links a:hover:after {
-            width: 100%;
-        }
-
-        .mobile-menu-btn {
-            display: none;
-            font-size: 24px;
-            cursor: pointer;
-            color: var(--celeste-oscuro);
-        } */
-
-
-        /* HEADER MEJORADO */
+        /* Header  */
         header {
             background: linear-gradient(135deg, var(--celeste-oscuro) 0%, var(--celeste) 100%);
             position: fixed;
@@ -460,7 +385,7 @@
 
         /* Alimento Premium */
         .products {
-            background: var(--blanco);
+            background: #c9a13c;
         }
 
         .products-container {
@@ -595,7 +520,7 @@
 
         /* Contacto */
         .contact {
-            background: linear-gradient(rgba(93, 173, 226, 0.9), rgba(93, 173, 226, 0.9)), url('https://images.unsplash.com/photo-1560743641-3914f2c45636?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+            background: linear-gradient(rgba(14, 15, 15, 0.9), rgba(43, 46, 49, 0.9)), url('https://images.unsplash.com/photo-1560743641-3914f2c45636?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
             color: var(--blanco);
         }
 
